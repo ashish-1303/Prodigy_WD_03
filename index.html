@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic_tac_toe.css">
+</head>
+<body>
+
+ <h2>Tic-Tac-Toe Game</h2>
+
+ <table style = "border : 1">
+
+  <tr>
+   <td onclick = "makeMove(this,0)"></td> 
+   <td onclick = "makeMove(this,1)"></td> 
+   <td onclick = "makeMove(this,2)"></td> 
+  </tr>  
+
+  <tr>
+   <td onclick = "makeMove(this,3)"></td> 
+   <td onclick = "makeMove(this,4)"></td> 
+   <td onclick = "makeMove(this,5)"></td> 
+  </tr> 
+
+  <tr>
+   <td onclick = "makeMove(this,6)"></td> 
+   <td onclick = "makeMove(this,7)"></td> 
+   <td onclick = "makeMove(this,8)"></td> 
+  </tr> 
+
+ </table>   
+
+ <p id = "status">Player X's Turn</p>
+ 
+ <button onclick = "resetGame()">Reset</button>
+
+ <script src="tic_tac_toe.js"></script>
+</body>
+</html>
